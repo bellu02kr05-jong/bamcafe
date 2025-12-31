@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>갤러리 - 정원 베이커리 카페</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🌿</span>
+                <span class="logo-text">정원 베이커리</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">홈</a></li>
+                <li><a href="menu.html">메뉴</a></li>
+                <li><a href="gallery.html" class="active">갤러리</a></li>
+                <li><a href="blog.html">블로그</a></li>
+                <li><a href="about.html">소개</a></li>
+                <li><a href="admin.html" class="admin-link">관리자</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 페이지 헤더 -->
+    <header class="page-header">
+        <div class="container">
+            <span class="section-label">Gallery</span>
+            <h1 class="section-title">갤러리</h1>
+            <p class="section-desc">정원 베이커리의 따뜻한 순간들을 담았습니다</p>
+        </div>
+    </header>
+
+    <!-- 갤러리 섹션 -->
+    <section class="gallery-page-section">
+        <div class="container">
+            <!-- 갤러리 그리드 -->
+            <div class="gallery-full-grid" id="galleryGrid">
+                <!-- JavaScript로 동적 로드 -->
+            </div>
+
+            <!-- 이미지 업로드 영역 -->
+            <div class="upload-section">
+                <h3 class="mb-md">사진 공유하기</h3>
+                <p class="mb-lg" style="color: var(--color-text-light);">정원 베이커리에서의 소중한 순간을 공유해주세요</p>
+                <div class="upload-area" id="uploadArea">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <p>클릭하거나 이미지를 드래그하세요</p>
+                    <span>JPG, PNG, GIF (최대 5MB)</span>
+                </div>
+                <input type="file" id="imageInput" accept="image/*" style="display: none;">
+            </div>
+        </div>
+    </section>
+
+    <!-- 라이트박스 -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close"><i class="fas fa-times"></i></span>
+            <span class="lightbox-nav lightbox-prev"><i class="fas fa-chevron-left"></i></span>
+            <img src="" alt="">
+            <span class="lightbox-nav lightbox-next"><i class="fas fa-chevron-right"></i></span>
+        </div>
+    </div>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">🌿</span>
+                        <span class="logo-text">정원 베이커리</span>
+                    </a>
+                    <p>자연과 함께하는 따뜻한 공간</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Blog"><i class="fas fa-blog"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>메뉴</h4>
+                    <ul>
+                        <li><a href="menu.html">전체 메뉴</a></li>
+                        <li><a href="menu.html#bread">베이커리</a></li>
+                        <li><a href="menu.html#coffee">커피</a></li>
+                        <li><a href="menu.html#dessert">디저트</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>정보</h4>
+                    <ul>
+                        <li><a href="about.html">카페 소개</a></li>
+                        <li><a href="gallery.html">갤러리</a></li>
+                        <li><a href="blog.html">블로그</a></li>
+                        <li><a href="#contact">오시는 길</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-phone"></i> 02-1234-5678</p>
+                    <p><i class="fas fa-envelope"></i> hello@gardenbakery.kr</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 서울시 강남구 테헤란로 123</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 정원 베이커리 카페. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 토스트 컨테이너 -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
