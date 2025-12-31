@@ -219,7 +219,7 @@ const initialData = {
             id: 1,
             title: '아침의 정원',
             description: '햇살 가득한 아침 테라스',
-            image: null,
+            image: 'images/morning_garden_1767162863357.png',
             createdAt: '2024-12-01'
         },
         {
@@ -414,9 +414,8 @@ const initialData = {
 const DataManager = {
     // 초기화
     init() {
-        if (!localStorage.getItem('gardenBakeryData')) {
-            this.resetData();
-        }
+        // 개발/수정 단계에서 데이터 갱신을 위해 무조건 리셋
+        this.resetData();
     },
 
     // 데이터 초기화
