@@ -15,7 +15,7 @@ const initialData = {
             description: '버터 풍미 가득한 시그니처 소금빵',
             price: 3500,
             badge: 'BEST',
-            image: null,
+            image: 'images/salt_bread_1767161749736.png',
             isActive: true
         },
         {
@@ -25,7 +25,7 @@ const initialData = {
             description: '쫄깃한 베이글과 풍성한 크림치즈',
             price: 5000,
             badge: 'HOT',
-            image: null,
+            image: 'images/cream_cheese_bagel_1767161769157.png',
             isActive: true
         },
         {
@@ -35,7 +35,7 @@ const initialData = {
             description: '겉은 바삭하고 속은 촉촉한 프랑스식 크루아상',
             price: 4000,
             badge: null,
-            image: null,
+            image: 'images/croissant_1767161784938.png',
             isActive: true
         },
         {
@@ -45,7 +45,7 @@ const initialData = {
             description: '달콤한 앙금과 고소한 버터의 만남',
             price: 4500,
             badge: null,
-            image: null,
+            image: 'images/ang_butter_1767161802601.png',
             isActive: true
         },
         {
@@ -55,7 +55,7 @@ const initialData = {
             description: '매일 아침 굽는 부드러운 우유 식빵',
             price: 5500,
             badge: null,
-            image: null,
+            image: 'images/milk_loaf_1767161819966.png',
             isActive: true
         },
         {
@@ -65,7 +65,7 @@ const initialData = {
             description: '겉은 바삭하고 속은 쫄깃한 프랑스 바게트',
             price: 4000,
             badge: null,
-            image: null,
+            image: 'images/baguette_1767161838286.png',
             isActive: true
         },
         // 커피
@@ -76,7 +76,7 @@ const initialData = {
             description: '부드러운 크레마와 고소한 원두의 조화',
             price: 5500,
             badge: 'NEW',
-            image: null,
+            image: 'images/garden_latte_1767161863293.png',
             isActive: true
         },
         {
@@ -86,7 +86,7 @@ const initialData = {
             description: '깊고 진한 에스프레소의 풍미',
             price: 4500,
             badge: null,
-            image: null,
+            image: 'images/americano_1767161881273.png',
             isActive: true
         },
         {
@@ -96,7 +96,7 @@ const initialData = {
             description: '은은한 바닐라 향이 더해진 라떼',
             price: 5500,
             badge: null,
-            image: null,
+            image: 'images/vanilla_latte_1767161900384.png',
             isActive: true
         },
         {
@@ -106,7 +106,7 @@ const initialData = {
             description: '풍성한 우유 거품과 에스프레소의 조화',
             price: 5000,
             badge: null,
-            image: null,
+            image: 'images/cappuccino_1767161917142.png',
             isActive: true
         },
         {
@@ -116,7 +116,7 @@ const initialData = {
             description: '12시간 저온 추출한 부드러운 커피',
             price: 5000,
             badge: null,
-            image: null,
+            image: 'images/cold_brew_1767161932022.png',
             isActive: true
         },
         {
@@ -126,7 +126,7 @@ const initialData = {
             description: '진한 에스프레소 한 잔',
             price: 3500,
             badge: null,
-            image: null,
+            image: 'images/espresso_1767161948180.png',
             isActive: true
         },
         // 디저트
@@ -137,7 +137,7 @@ const initialData = {
             description: '촉촉한 시트와 크림치즈 프로스팅',
             price: 6500,
             badge: null,
-            image: null,
+            image: 'images/carrot_cake_1767161979943.png',
             isActive: true
         },
         {
@@ -147,7 +147,7 @@ const initialData = {
             description: '진한 에스프레소와 마스카포네의 만남',
             price: 7000,
             badge: 'BEST',
-            image: null,
+            image: 'images/tiramisu_1767161997762.png',
             isActive: true
         },
         {
@@ -157,7 +157,7 @@ const initialData = {
             description: '상큼한 레몬 커드와 바삭한 타르트',
             price: 6000,
             badge: null,
-            image: null,
+            image: 'images/lemon_tart_1767162011938.png',
             isActive: true
         },
         {
@@ -167,7 +167,7 @@ const initialData = {
             description: '진한 뉴욕 스타일 치즈케이크',
             price: 7000,
             badge: null,
-            image: null,
+            image: 'images/cheesecake_1767162028026.png',
             isActive: true
         },
         // 음료
@@ -178,7 +178,7 @@ const initialData = {
             description: '향긋한 국산 유자로 만든 따뜻한 차',
             price: 5500,
             badge: null,
-            image: null,
+            image: 'images/yuja_tea_1767162052130.png',
             isActive: true
         },
         {
@@ -188,7 +188,7 @@ const initialData = {
             description: '고소한 우유와 진한 녹차의 조화',
             price: 5500,
             badge: null,
-            image: null,
+            image: 'images/green_tea_latte_1767162068760.png',
             isActive: true
         },
         {
@@ -198,7 +198,7 @@ const initialData = {
             description: '상큼한 복숭아 아이스티',
             price: 4500,
             badge: null,
-            image: null,
+            image: 'images/iced_tea_1767162084700.png',
             isActive: true
         },
         {
@@ -208,7 +208,7 @@ const initialData = {
             description: '신선한 과일로 만든 베리 스무디',
             price: 6000,
             badge: 'NEW',
-            image: null,
+            image: 'images/berry_smoothie_1767162102130.png',
             isActive: true
         }
     ],
