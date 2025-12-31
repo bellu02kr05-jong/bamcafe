@@ -226,49 +226,49 @@ const initialData = {
             id: 2,
             title: '신선한 빵',
             description: '매일 아침 갓 구운 빵들',
-            image: null,
+            image: 'images/baguette_1767161838286.png',
             createdAt: '2024-12-05'
         },
         {
             id: 3,
             title: '라떼 아트',
             description: '정성스럽게 그린 라떼 아트',
-            image: null,
+            image: 'images/cappuccino_1767161917142.png',
             createdAt: '2024-12-10'
         },
         {
             id: 4,
             title: '가을 풍경',
             description: '카페 앞 은행나무 풍경',
-            image: null,
+            image: 'images/morning_garden_1767162863357.png',
             createdAt: '2024-12-15'
         },
         {
             id: 5,
             title: '디저트 모음',
             description: '오늘의 수제 디저트',
-            image: null,
+            image: 'images/tiramisu_1767161997762.png',
             createdAt: '2024-12-20'
         },
         {
             id: 6,
             title: '크리스마스 장식',
             description: '겨울 분위기 가득한 인테리어',
-            image: null,
+            image: 'images/morning_garden_1767162863357.png',
             createdAt: '2024-12-25'
         },
         {
             id: 7,
             title: '커피 타임',
             description: '여유로운 오후의 커피 한 잔',
-            image: null,
+            image: 'images/americano_1767161881273.png',
             createdAt: '2024-12-28'
         },
         {
             id: 8,
             title: '정원 베이커리',
             description: '카페 전경',
-            image: null,
+            image: 'images/morning_garden_1767162863357.png',
             createdAt: '2024-12-30'
         }
     ],
@@ -288,7 +288,7 @@ const initialData = {
                 - 1월 2일부터: 정상 영업</p>
                 <p>새해에도 변함없는 사랑 부탁드립니다. 감사합니다.</p>
             `,
-            image: null,
+            image: 'images/morning_garden_1767162863357.png',
             author: '정원 베이커리',
             createdAt: '2024-12-30',
             status: 'published'
@@ -306,7 +306,7 @@ const initialData = {
                 <p><strong>딸기 치즈케이크</strong> - 진한 치즈케이크 위에 딸기 토핑</p>
                 <p>한정 기간 동안만 만나볼 수 있는 특별한 메뉴입니다. 많은 관심 부탁드립니다!</p>
             `,
-            image: null,
+            image: 'images/berry_smoothie_1767162102130.png',
             author: '정원 베이커리',
             createdAt: '2024-12-25',
             status: 'published'
@@ -324,7 +324,7 @@ const initialData = {
                 <p>2024년 12월 1일 ~ 12월 31일</p>
                 <p>※ 일부 음료는 이벤트 대상에서 제외될 수 있습니다.</p>
             `,
-            image: null,
+            image: 'images/garden_latte_1767161863293.png',
             author: '정원 베이커리',
             createdAt: '2024-12-01',
             status: 'published'
@@ -346,7 +346,7 @@ const initialData = {
                 5. 190도에서 15분간 굽습니다.</p>
                 <p>집에서도 따뜻한 소금빵을 즐겨보세요!</p>
             `,
-            image: null,
+            image: 'images/salt_bread_1767161749736.png',
             author: '정원 베이커리',
             createdAt: '2024-11-20',
             status: 'published'
@@ -363,7 +363,7 @@ const initialData = {
                 <p>'정원'이라는 이름처럼, 이곳이 여러분의 마음속 작은 정원이 되길 바랍니다.</p>
                 <p>앞으로도 정원 베이커리는 변함없이 최선을 다하겠습니다. 감사합니다.</p>
             `,
-            image: null,
+            image: 'images/morning_garden_1767162863357.png',
             author: '정원 베이커리',
             createdAt: '2024-10-15',
             status: 'published'
@@ -381,7 +381,7 @@ const initialData = {
                 - 인근 공영주차장: 도보 3분</p>
                 <p>편안한 방문 되시길 바랍니다.</p>
             `,
-            image: null,
+            image: 'images/morning_garden_1767162863357.png',
             author: '정원 베이커리',
             createdAt: '2024-09-01',
             status: 'published'
